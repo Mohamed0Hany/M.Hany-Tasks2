@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    background-color: #fff;
+}
+
+.triangle-box {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    position: absolute;
+    animation: moveInRightTriangle 5s infinite;
+}
+
+@keyframes moveInRightTriangle {
+    0% {
+        transform: translate(0, 0); 
+    }
+    33% {
+        transform: translate(200px, 150px); 
+    }
+    66% {
+        transform: translate(0, 200px);
+    }
+    100% {
+        transform: translate(0, 0);
+}

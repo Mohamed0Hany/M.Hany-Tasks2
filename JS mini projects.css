@@ -1,0 +1,234 @@
+q1
+
+let num = prompt("Enter a number:")
+;
+num = parseInt(num);
+
+
+
+if (num % 2 === 0)
+ {
+    console.log(num + " is even");
+
+} else {
+    console.log(num + " is odd");
+
+
+}
+
+=============================================
+q2
+
+for (var i = 1; i <= 50; i++)
+ {
+    if (i % 3 === 0 && i % 5 === 0) {
+  console.log("FizzBuzz");
+    }
+ 
+   else if (i % 3 === 0) {
+        console.log("Fizz");
+    }
+  
+   else if (i % 5 === 0) {
+        console.log("Buzz");
+    }
+ 
+   else {
+        console.log(i);
+    }
+}
+
+=================================================
+q4
+
+var radius = prompt("Enter the radius of the circle:");
+
+radius = parseFloat(radius);
+
+
+
+var area = 3.14* radius * radius;
+
+var circumference = 2 * 3.14 * radius;
+
+
+
+console.log("Area: " + area);
+
+console.log("Circumference: " + circumference);
+
+===============================================
+q5
+
+
+var num1 = 30;
+
+var num2 = 20;
+
+
+var result = (num1 === 50 || num2 === 50 || num1 + num2 === 50);
+
+
+console.log(result);
+
+=================================================
+q6
+
+var num1 = 10;
+
+var num2 = -5;
+
+
+var result = (num1 > 0 && num2 < 0) || (num1 < 0 && num2 > 0);
+
+
+
+console.log(result);
+
+====================================================
+q7
+
+var num = 100; 
+ 
+var result = (num % 50 === 0) || (num % 8 === 0);
+
+console.log(result);
+
+====================================================
+q8
+
+var num1 = Number(prompt("please enter the first number"))
+
+var num2 = Number(prompt("please enter the second number"))
+
+var num3 = Number(prompt("please enter the third number"))
+
+var largest_num =0
+
+if (num1>num2 && num1>num3) {
+  largest_num = num1
+}
+else if(num2>num1 && num2>num3){
+  largest_num = num2
+}
+else if (num3>num1 && num3>num2){
+  largest_num = num3
+}
+
+console.log (largest_num);
+======================================================
+q9
+
+var sum = 0;
+
+
+for (let i = 1; i <= 10; i++) {
+    sum += i; 
+}
+
+
+
+console.log("Sum of numbers from 1 : 10 =", sum);
+======================================================
+q10
+
+var rows = 20;
+
+
+for (var i = 1; i <= rows; i++) 
+{
+    var line = "";
+
+   
+ 
+    for (var a = 1; a <= i; a++) {
+        line += "*"; 
+    }
+
+
+    console.log(line);
+
+
+}
+========================================================
+q11
+
+var number = -10;
+
+
+if (number > 0) {
+    console.log(number + " is positive.");
+}
+else if (number < 0) {
+    console.log(number + " is negative.");
+}
+else {
+    console.log (number + "  zero is not a positeve or negative number");
+}
+
+
+===========================================================
+q13
+
+var num1  = 10;
+
+var num2  = 20;
+
+console.log (num1+num2 + "  is the sum");
+==========================================================
+q14
+
+var num = 5;
+
+
+var factorial = 1;
+
+
+for (var i = 1; i <= num; i++) {
+    factorial *= i;
+}
+
+
+
+console.log("The Factorial is "+ factorial);
+============================================================
+q15
+
+var num1 = parseFloat(prompt("Enter the first number:"));
+
+var operator = prompt("Enter the operator (+, -, *, /):");
+
+var num2 = parseFloat(prompt("Enter the second number:"));
+
+var result ;
+
+
+
+if (operator === '+') {
+    result = num1 + num2;
+} 
+else if (operator === '-') {
+    result = num1 - num2;
+}
+ else if (operator === '*') {
+    result = num1 * num2;
+} 
+else if (operator === '/') {
+    if (num2 === 0) {
+        result = "Error: Division by zero is not possible.";
+    }
+ else {
+        result = num1 / num2;
+    }
+} 
+else {
+    result = "Invalid operator!";
+}
+
+
+console.log ("the Result = " + result):
+
+
+
+
+
