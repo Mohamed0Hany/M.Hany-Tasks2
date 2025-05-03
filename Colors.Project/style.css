@@ -1,0 +1,15 @@
+body{  
+    text-align: center;
+    font-family:fantasy;  
+     background: linear-gradient( to right , blue , green) ; 
+    
+}
+
+h1{
+    font-size: 4rem;
+    letter-spacing: .2rem;
+    width: 50%;
+    margin: 1rem auto;
+    color: rgba(0, 0, 0, 0.6);
+}
+
